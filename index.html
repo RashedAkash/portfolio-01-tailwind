@@ -1,25 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio</title>
-  
-    <script src="https://cdn.tailwindcss.com"></script>
-      <script>
-        tailwind.config = {
-          theme: {
-            extend: {
-              colors: {
-                clifford: '#da373d',
-              }
-            }
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
           }
+
+        },
+        fontFamily: {
+          nunito: ['Nunito', 'sans - serif']
         }
-      </script>
-    </head>
+      }
+    }
+  </script>
 </head>
-<body>
-  
+</head>
+
+<body class="font-nunito">
+  <header class="h-screen bg-gradient-to-bl from-sky-500 to-indigo-500">
+    <!-- navbar section -->
+    <nav>
+      <section class="container mx-auto ">
+        <div class="navbar flex justify-between py-7 items-center">
+          <div class="logo flex justify-center items-center">
+            <div class="logo-img">
+              <img src="img/logo.png" alt="">
+            </div>
+            <div class="logo-text ml-3">
+              <h2 class="text-3xl text-white font-bold">A<span class="text-yellow-500">k</span>ash.</h2>
+            </div>
+          </div>
+          <div class="menu">
+            <ul class="flex justify-center items-center">
+              <li class="mx-7 ">
+                <a class="uppercase font-medium text-lg text-white hover:text-red-400" href="">homepage</a>
+              </li>
+              <li class="mx-7 ">
+                <a class="uppercase font-medium text-lg text-white hover:text-red-400" href="">services</a>
+              </li>
+              <li class="mx-7 ">
+                <a class="uppercase font-medium text-lg text-white hover:text-red-400" href="">contact</a>
+              </li>
+              <li class="mx-7 ">
+                <a class="uppercase font-medium text-lg text-white hover:text-red-400" href="">about
+                  me</a>
+              </li>
+              <li class="mx-7 ">
+                <a class="uppercase font-medium text-lg text-white hover:text-red-400" href="">works</a>
+              </li>
+
+            </ul>
+          </div>
+          <div class="moon">
+            <img src="img/moon.png" alt="">
+          </div>
+        </div>
+      </section>
+    </nav>
+  </header>
+  <main></main>
+  <footer></footer>
 </body>
+
 </html>

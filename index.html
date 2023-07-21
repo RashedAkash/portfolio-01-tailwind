@@ -30,11 +30,11 @@
 </head>
 
 <body class="font-nunito">
-  <header class="h-screen bg-gradient-to-bl from-sky-500 to-indigo-500">
+  <header class=" bg-gradient-to-bl from-sky-500 to-indigo-500">
     <!-- navbar section -->
     <nav>
       <section class="container mx-auto ">
-        <div class="navbar flex justify-between py-7 items-center">
+        <div class="navbar lg:flex justify-between py-7 items-center">
           <div class="logo flex justify-center items-center">
             <div class="logo-img">
               <img src="img/logo.png" alt="">
@@ -44,32 +44,46 @@
             </div>
           </div>
           <div class="menu">
-            <ul class="flex justify-center items-center">
-              <li class="mx-7 ">
+            <ul class=" text-center mt-5 md:flex  justify-center items-center">
+              <li class="mb-3 md:mx-7 ">
                 <a class="uppercase font-medium text-lg text-white hover:text-red-400" href="">homepage</a>
               </li>
-              <li class="mx-7 ">
+              <li class="mb-3 md:mx-7 ">
                 <a class="uppercase font-medium text-lg text-white hover:text-red-400" href="">services</a>
               </li>
-              <li class="mx-7 ">
+              <li class="mb-3 md:mx-7">
                 <a class="uppercase font-medium text-lg text-white hover:text-red-400" href="">contact</a>
               </li>
-              <li class="mx-7 ">
+              <li class="mb-3 md:mx-7 ">
                 <a class="uppercase font-medium text-lg text-white hover:text-red-400" href="">about
                   me</a>
               </li>
-              <li class="mx-7 ">
+              <li class="mb-3 md:mx-7 ">
                 <a class="uppercase font-medium text-lg text-white hover:text-red-400" href="">works</a>
               </li>
 
             </ul>
           </div>
-          <div class="moon">
+          <div class="moon flex justify-center mt-3 md:mt-0">
             <img src="img/moon.png" alt="">
           </div>
         </div>
       </section>
     </nav>
+    <!-- .banner-section -->
+    <section>
+      <div class="banner relative ">
+        <div class="banner-img">
+          <img class="w-full h-screen object-cover" src="img/my-bg.jpg" alt="">
+        </div>
+        <div class="banner-text space-y-3 p-5 shadow-xl absolute top-1/4 right-8 bg-white w-1/3">
+          <h2 class="font-bold text-2xl">Hi, I'm Akash</h2>
+          <p class="">with over 10 years of experience on web design and development. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          N oumquam quo provident, facere minus temporibus veniam nostrum reprehenderit nihil?</p>
+          <button class="bg-gradient-to-r from-cyan-400 to-purple-600 px-3 py-1 text-white">Hire me</button>
+        </div>
+      </div>
+    </section>
   </header>
   <main></main>
   <footer></footer>

@@ -30,10 +30,10 @@
 </head>
 
 <body class="font-nunito">
-  <header class=" bg-gradient-to-bl from-sky-500 to-indigo-500">
+  <header class=" ">
     <!-- navbar section -->
     <nav>
-      <section class="container mx-auto ">
+      <section class="container mx-auto bg-gradient-to-bl from-sky-500 to-indigo-500">
         <div class="navbar lg:flex justify-between py-7 items-center">
           <div class="logo flex justify-center items-center">
             <div class="logo-img">
@@ -76,16 +76,39 @@
         <div class="banner-img">
           <img class="w-full h-screen object-cover" src="img/my-bg.jpg" alt="">
         </div>
-        <div class="banner-text space-y-3 p-5 shadow-xl absolute md:top-1/4 right-8 bg-white md:w-1/3">
+        <div class="banner-text rounded-lg space-y-3 p-5 shadow-xl absolute md:top-1/4 right-8 bg-white md:w-1/3">
           <h2 class="font-bold text-2xl">Hi, I'm Akash</h2>
-          <p class="">with over 10 years of experience on web design and development. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          N oumquam quo provident, facere minus temporibus veniam nostrum reprehenderit nihil?</p>
+          <p class="">with over 10 years of experience on web design and development. Lorem ipsum dolor sit amet
+            consectetur adipisicing elit.
+            N oumquam quo provident, facere minus temporibus veniam nostrum reprehenderit nihil?</p>
           <button class="bg-gradient-to-r from-cyan-400 to-purple-600 px-3 py-1 text-white">Hire me</button>
         </div>
       </div>
     </section>
   </header>
-  <main></main>
+  <main>
+    <!-- about me section -->
+    <div class="about-area container mx-auto flex justify-between items-center  py-24">
+      <div class="about-img">
+        <img class="w-full" src="img/my-bg2.jpg" alt="">
+      </div>
+      <div class="about-text space-y-4 ">
+        <h4 class="font-bold text-3xl text-blue-400">About me</h4>
+        <h2 class="font-semibold text-5xl">Better Design <br>
+          Better Experience</h2>
+        <p class="text-lg text-gray-600 mb-4">I design and build digital products. I'm also a multi-disciplinary maker with <br> over 10 years of experiences in
+          wide range
+          of design disciplines.</p>
+        <label class="font-medium text-2xl mt-7 inline-block " for="html">Html</label> <br> 
+        <progress class="text-red-500 w-full" id="html" value="100" max="100"> 100% </progress> <br>
+        <label class="font-medium text-2xl mt-7 inline-block " for="css">Css</label> <br>
+        <progress class="text-red-500 w-full"  id="css" value="80" max="100"> 80% </progress><br>
+        <label class="font-medium text-2xl mt-7 inline-block " for="tailwind">Tailwindcss</label><br>
+        <progress class="text-red-500 w-full"  id="tailwind" value="70" max="100"> 70% </progress>
+
+      </div>
+    </div>
+  </main>
   <footer></footer>
 </body>
 
